@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>主页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/5.7.2/css/all.min.css">
+    <!-- <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+    <style>
+        @media(max-width: 580px) {
+            .nav-right {
+                display: none
+            }
+        }
+
+        .header {
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-left {
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-left a {
+            border: 1px solid rgba(5, 197, 255, 0);
+            border-radius: 25px;
+            color: #777;
+            transition: border-color 0.4s, color 0.4s, background-color 0.4s;
+        }
+
+        .nav-left a:hover {
+            background-color: rgba(5, 197, 255, 0.1);
+            border-color: rgba(5, 197, 255, 1);
+            color: rgba(5, 197, 255, 1);
+        }
+
+
+        .nav-right {}
+
+        .body {}
+
+        .sider-bar {}
+
+        .layout {}
+
+        .footer {}
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- <div class="col-md-1 col-lg-1"></div> -->
+                <div class="col-sm-12 col-lg-4 offset-lg-1">
+                    <ul class="nav nav-left list-unstyled">
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-home"></i>&nbsp;主页</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-bookmark"></i>&nbsp;标签</a></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-briefcase"></i>&nbsp;归档</a></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-cubes"></i>&nbsp;分类</a></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 offset-lg-3">
+                    <ul class="nav nav-right list-unstyled">
+                        <li class="nav-item"><a class="nav-link" href="#">aa</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">aa</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">aa</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">aa</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 sider-bar">
+                    <section>section1</section>
+                    <section>section2</section>
+                    <section>section3</section>
+                    <section>section4</section>
+
+                </div>
+                <div class="col-md-8 layout">
+                    <div class="artical">
+                        <p>asd</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <p>thanks</p>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
